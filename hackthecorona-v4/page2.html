@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  
+   <link
+      href="https://fonts.googleapis.com/css?family=Product+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="index.css">
+
+    <script
+    type="text/javascript"
+    src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+    </script>
+
+
+    
+
+    <!-- <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    </div> -->
+
+  <div class="page-wrap">
+    <div class = "title">
+      <h1>
+        Hack The Corona
+      </h1>
+    </div>
+      
+      
+      
+  
+          <div class="h0"></div>
+          <div class="h10"></div>
+          <div class="h1"></div>
+          <div class="h2"></div>
+          <div class="h3"></div>
+          <div class="h5"></div>
+          <div class="h6"></div>
+  
+          <!--
+            <div class="sideBarParent" flexDirection="column" height: width:>
+              <img src width height></img>
+              <img></img>
+              <img></img>
+              <img></img>
+            </div>
+          -->
+          <div class="h7"></div>
+          <div class="h8"></div>
+  
+         
+      
+          <style>
+html,body {
+            background: #FFFFFF;
+            font-family: 'Product Sans', sans-serif;
+            font-size: 20px;
+            margin: 2;
+            min-height: 600px;
+            padding: 10;
+            width: 480px;
+        }
+
+        h1 {
+            font-family: 'Product Sans', monospace;
+            padding: -100;
+            font-size: 30px;
+            font-weight: 40;
+            margin: -100;
+            color: #FFB347;
+        }
+
+        p1 {
+          font-family: 'Product Sans', monospace;
+            padding: -100;
+            font-size: 30px;
+            font-weight: 40;
+            margin: -100;
+            color: #FFFFFF;
+        }
+
+        d1 {
+          font-family: 'Product Sans', monospace;
+            padding: -100;
+            font-size: 20px;
+            font-weight: 40;
+            margin: -100;
+            color: #FFFFFF;
+        }
+        
+        img{
+            width: 50px;
+        }
+
+
+        .h0{
+          font-family: 'Product Sans', sans-serif;
+          font-size: 20px;
+             margin: 2;
+             min-height: 50px;
+             padding: 10;
+             width: 480px;
+             font-family: times;
+         }
+        
+ 
+ .h1 {
+             font-family: 'Product Sans', monospace;
+             padding: -100;
+             font-size: 30px;
+             font-weight: 40;
+             margin: -100;
+             color: #FFB347
+         }
+             
+         
+      .h2{
+ position: absolute;
+ width: 1130px;
+ height: 166px;
+ left: 73px;
+ top: 24px;
+ font-family: Nunito;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 30px;
+ line-height: 41px;
+ font-feature-settings: 'ss04' on;
+ color: #FFB347;
+ }
+     
+         .h3{
+             position: absolute;
+ width: 50px;
+ height: 50px;
+ left: 16px;
+ top: 19px;
+ background: url(magnifyingglass.png);
+ background-repeat: no-repeat; 
+ border-radius: 74px;
+         } 
+ 
+ 
+         .h5{
+             /* Select An Item */
+ position: absolute;
+ width: 203px;
+ height: 41px;
+ left: 1148px;
+ top: 107px;
+ font-family: Nunito;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 30px;
+ line-height: 41px;
+ /* identical to box height */
+ color: #FFFFFF;
+         }
+         
+         
+ 
+
+ /* Rectangle 3 */
+ 
+    .h10{
+ position: absolute;
+ width: 330px;
+ height: 710px;
+ left: 1110px;
+ top: 79px;
+ background: #FFB347;
+ }
+
+div.select {
+  position: absolute;
+  top:100px;
+  right:70px;
+}
+
+div.title {
+  position: absolute;
+  top:0px;
+  left:70px;
+}
+
+div.distance {
+  position: absolute;
+  bottom:210px;
+  right:110px;
+}
+
+
+div.d0 {
+  position: absolute;
+  bottom:45px;
+  right:240px;
+}
+
+div.d1 {
+  position: absolute;
+  bottom:45px;
+  right:30px;
+}
+
+
+
+.slidecontainer1 {
+  width: 100%; /* Width of the outside container */
+    position: absolute;
+    bottom:175px;
+    right: -1210px;
+}
+
+
+
+          </style>
+      
+  
+  
+  </div>
+
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+    #map {
+      height: 100%;
+    }
+    /* Optional: Makes the sample page fill the window. */
+    html, body {
+      height: 95%;
+      margin: 0;
+      padding-top: 1.1%;
+      width: 87.8%;
+      
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script>
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 49.2604, lng: -123.2512},
+        /*
+          center: {lat: 49.282, lng: -123.121},
+          */
+        zoom: 20
+      });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZg7MZ9kwk47HDaNATzBIsceXCAl4gBKc&callback=initMap"
+  async defer></script>
+  <script src="hackathon.js"></script>
+</body>
+ 
+
+</html>
